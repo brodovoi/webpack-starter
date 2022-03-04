@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Nova Flat', cursive;
+  background-color: #000;
+  color: #ffffff;
+  
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+@import "./_variables.scss";
+@import "./components/header.scss";
+@import "./pages/contact-page.scss";

@@ -1,0 +1,31 @@
+<% var data = {
+  title: "Forketa",
+}; %>
+
+<%= _.template(require('./../includes/head.html').default)(data) %>
+<div class="wrapper">
+  <div class="page pageex">
+    <%= _.template(require('./../includes/header.html').default)(data) %>
+
+    <h3 class="page__title">
+      Strategic Marketing agency
+    </h3>
+    
+    <div class="page__content">
+      <%= _.template(require('./../includes/navigation.html').default)(data) %>
+
+      <div class="page__intro">
+        <h2 class="page__intro-title">
+          We help companies and creators to launch & scale digital products
+        </h2>
+      </div>
+
+    </div>
+  
+  </div>
+</div>
+
+<%= _.template(require('./../includes/foot.html').default)(data) %>
+
+
+

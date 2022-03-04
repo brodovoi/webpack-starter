@@ -1,0 +1,55 @@
+// Header
+.header {
+  text-align: center;
+  padding-top: 20px;
+
+    &__logo {
+      background: #FFEF00;
+      padding: 17px 45px;
+      height: 50px;
+      text-decoration: none;
+      border-radius: 29.0661px;
+      display: inline-block;
+  
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 16px;
+      color: #000000;
+      min-width: 149px;
+      margin: 0 auto 35px;
+
+      @media (min-width: 1024px) {
+        margin: 0 auto 55px;
+      }
+    }
+  }
+  
+  // Menu
+  
+  .menu {
+    margin-bottom: 34px;
+
+    @media (min-width: 1024px) {
+      margin-bottom: 76px;
+    }
+  
+    &__list {
+      display: flex;
+      padding: 0;
+    }
+  
+    &__item {
+      list-style: none;
+      font-weight: normal; 
+      font-size: 14px; 
+      line-height: 17px; 
+      letter-spacing: 0.05em; 
+      text-transform: uppercase; 
+      margin-right: 60px;
+    }
+  
+    &__link {
+      color: #DFDFDF;
+      text-decoration: none;
+    }
+  }
